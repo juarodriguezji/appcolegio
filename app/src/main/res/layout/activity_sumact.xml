@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sumact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView90"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView91"
+            android:layout_width="304dp"
+            android:layout_height="89dp"
+            app:srcCompat="@drawable/exersp"
+
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Which clothe was not mentioned on the text?" />
+
+        <LinearLayout
+            android:layout_width="287dp"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sua" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sub" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/suc" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Which color is not dominating this summer trends?" />
+
+            <RadioButton
+                android:id="@+id/radioButton25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="White" />
+
+            <RadioButton
+                android:id="@+id/radioButton26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Black" />
+
+            <RadioButton
+                android:id="@+id/radioButton27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Gray" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="&quot;Dresses and skirts are comfortable to wear in summer&quot; Is an inspiration of Yves Saint Laurent  from year:"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="1942"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="2017"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton30"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="1958"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#787417"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

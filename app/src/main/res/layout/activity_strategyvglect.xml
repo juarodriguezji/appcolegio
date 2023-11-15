@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".strategyvglect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="346dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/videotc" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="389dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/videosc" />
+
+        <ScrollView
+            android:layout_width="323dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strategy is a major video game genre that emphasizes thinking and planning over direct instant action in order to achieve victory.Although many types of video games can contain strategic elements, as a genre, strategy games are most commonly defined as those with a primary focus on high-level strategy, logistics and resource management. They are also usually divided into two main sub-categories: turn-based and real-time, but there are also many strategy cross sub-genres that feature additional elements such as tactics, diplomacy, economics and exploration.\n Typical Experience \nA player must plan a series of actions against one or more opponents, and the reduction of enemy forces is usually a goal. Victory is achieved through superior planning, and the element of chance takes a smaller role.In most strategy video games, the player is given a godlike view of the game world, and indirectly controls game units under their command.Thus, most strategy games involve elements of warfare to varying degrees, and feature a combination of tactical and strategic considerations.In addition to combat, these games often challenge the player's ability to explore or manage an economy.\n Some great examples are : Clash of Clans, Age of Empires,Starcraft, Eve Online.\n Retrieved from:https://en.wikipedia.org/wiki/Strategy_video_game"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/stratc"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISE"
+            android:backgroundTint="#1CE10E"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

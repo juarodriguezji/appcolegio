@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".basketlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView65"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depd" />
+
+        <ImageView
+            android:id="@+id/imageView66"
+            android:layout_width="378dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depe" />
+
+        <ScrollView
+            android:layout_width="299dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball approximately 9.4 inches 24 cm in diameter through the defender's hoop a basket 18 inches 46 cm in diameter mounted 10 feet 3m high to a backboard at each end of the court, while preventing the opposing team from shooting through their own hoop. A field goal is worth two points, unless made from behind the three-point line, when it is worth three. After a foul, timed play stops and the player fouled or designated to shoot a technical foul is given one, two or three one-point free throws. The team with the most points at the end of the game wins, but if regulation play expires with the score tied, an additional period of play overtime is mandated.\nNaismith wanted to create a game that would be simple to understand but complex enough to be interesting. The game had to be playable indoors, and it had to accommodate several players at once. The game also needed to provide plenty of exercise for the students, yet without the physicality of football, soccer, or rugby since those would threaten more severe injuries if played in a confined space.\nNaismith approached the school janitor, hoping he could find two square boxes to use for goals. When the janitor came back from his search, he had two peach baskets instead. Naismith nailed the peach baskets to the lower rail of the gymnasium balcony, one on each side. The height of that lower balcony rail happened to be 10 feet. The students would play on teams to try to get the ball into their team’s basket.  A person was stationed at each end of the balcony to retrieve the ball from the basket and put it back into play.\nThe first game ever played between students was a complete brawl.\n Retrieved from:https://en.wikipedia.org/wiki/Basketball"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView67"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/sportsbas"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISE"
+            app:backgroundTint="#673AB7"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".catfoodlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="368dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/catfooda" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/catfoodb" />
+
+        <ScrollView
+            android:layout_width="324dp"
+            android:layout_height="254dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="How to shop for quality cat food\n According to Kornreich, first and foremost, you should consult your veterinarian about your cat’s specific dietary needs in conjunction with age and to get an expert read on what needs or restrictions your cat might be exhibiting – for example, if they are pregnant or nursing (more on this below in &quot;Dry cat food versus wet&quot;). Once that’s established, he said, you should approach buying cat food the same way you would breakfast: It needs to be nutritionally balanced, he said. “Cats must get the appropriate balance of proteins, carbohydrates, fats, vitamins and minerals at every life stage.” For example, the experts we consulted recommended that kittens be given a diet consisting of more energy-producing nutrients, like proteins and fats, while a senior cat is given a diet that is lower in calories because older cats are usually less active (more on this below).\n  Kornreich also recommended looking for a nutritional adequacy label from the Association of American Feed Control Officials (AAFCO), a nonprofit that assesses what’s in pet food and animal feed. This label states what life stage the food is suitable for, provides a complete listing of ingredients and the amount of each ingredient in the recipe.Beyond that, you’ll want to look for the following qualities:\n  Protein:\n Kornreich noted that protein in cat food can come from chicken, rabbit, venison or duck, but “the important thing is that the sources of the raw materials be reliable and combined in a way that achieves the right balance of nutrients.”\n Natural, whole ingredients:\n Shelly Ferris, DVM, the regional director of Petco Veterinary Services recommended looking for whole ingredients such as “such as fruits, vegetables and high-quality carbohydrates like rice, oats or potatoes,” she said.\n Vitamins and nutrients:\n Ferris recommended looking for calcium (good for bones, teeth, muscle control and ion balance) and phosphorus (a vital nutrient for cell membranes and energy), as well as vitamin D, which regulates cats’ calcium and phosphorus balance. Omega-3 and amino acids are also excellent for supporting your cats’ overall health, but these can also be given separately as supplements, according to AAFCO.\n What to avoid\n As for what to avoid, Kornreich says to stay away from cat foods that list\n  Peas or legumes as one of their top 10 ingredients:\n “There is some evidence that these may lead to the development of a type of heart disease referred to as dilated cardiomyopathy,” said Kornreich, though he added that this syndrome primarily has been reported in dogs.\n Raw cat food:\n Kornreich noted that some raw cat foods have been known to contain bacteria and parasites that can be harmful to both cats and their owners.\n “Exotic” ingredients:\n Tim Julien, chief medical officer at Paz Veterinary in Austin, recommended avoiding ingredients that are “more about sentiment and marketing than nutrition.” He points to dyes that make food look more appealing to people (cats perceive color differently) and “exotic” ingredients like kangaroo and lentils, which are “less well studied in cats.”\n  Retrieved from:https://www.nbcnews.com/select/shopping/best-cat-food-ncna1235804"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="354dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pngwing_com__4_" />
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#2F3A99"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

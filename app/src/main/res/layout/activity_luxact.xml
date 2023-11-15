@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".luxact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trickall"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView95"
+            android:layout_width="304dp"
+            android:layout_height="89dp"
+            app:srcCompat="@drawable/exerlux"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="According to the text :Is the change of logos an opportunity to revitalize a brand?" />
+
+            <RadioButton
+                android:id="@+id/radioButton31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Do the luxury brands use cheap materials?" />
+
+            <RadioButton
+                android:id="@+id/radioButton33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="To which art  can we compare a New Collection event?" />
+
+            <RadioButton
+                android:id="@+id/radioButton35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Painting" />
+
+            <RadioButton
+                android:id="@+id/radioButton36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Music" />
+
+            <RadioButton
+                android:id="@+id/radioButton37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Theatre" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button56"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#A9C410"
+            android:layout_gravity="center"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

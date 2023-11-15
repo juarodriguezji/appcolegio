@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menuprin" >
+
+    <LinearLayout
+        android:layout_width="362dp"
+        android:layout_height="702dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/anglofonos_banderas" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="182dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/menuprina" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="316dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/topicselect" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#6699FF"
+            android:text="PETS"
+            android:textColor="#607D8B"
+            android:textStyle="bold"
+            app:backgroundTint="#6699FF"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#FFCC00"
+            android:text="FASHION"
+            android:textColor="#607D8B"
+            android:textStyle="bold"
+            app:backgroundTint="#FFCC00"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#81da81"
+            android:text="VIDEOGAMES"
+            android:textColor="#607D8B"
+            android:textStyle="bold"
+            app:backgroundTint="#82CC2C" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#FF9966"
+            android:text="MUSIC"
+            android:textColor="#607D8B"
+            android:textStyle="bold"
+            app:backgroundTint="#FF9966"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="#CC99FF"
+            android:text="SPORTS"
+            android:textColor="#607D8B"
+            android:textStyle="bold"
+            app:backgroundTint="#CC99FF"
+            tools:ignore="TextContrastCheck" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="286dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pngwing_com__2_" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

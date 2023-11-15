@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appcolegio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_dlf"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_dlf_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Appcolegio">
+        <activity
+            android:name=".tenisact"
+            android:exported="true" />
+        <activity
+            android:name=".baskact"
+            android:exported="true" />
+        <activity
+            android:name=".socact"
+            android:exported="true" />
+        <activity
+            android:name=".regact"
+            android:exported="true" />
+        <activity
+            android:name=".hipact"
+            android:exported="true" />
+        <activity
+            android:name=".strvgact"
+            android:exported="true" />
+        <activity
+            android:name=".rpgact"
+            android:exported="true" />
+        <activity
+            android:name=".spvact"
+            android:exported="true" />
+        <activity
+            android:name=".luxact"
+            android:exported="true" />
+        <activity
+            android:name=".sumact"
+            android:exported="true" />
+        <activity
+            android:name=".autact"
+            android:exported="true" />
+        <activity
+            android:name=".rpgactiv"
+            android:exported="true" />
+        <activity
+            android:name=".rockactiv"
+            android:exported="true" />
+        <activity
+            android:name=".petfashact"
+            android:exported="true" />
+        <activity
+            android:name=".catfoodact"
+            android:exported="true" />
+        <activity
+            android:name=".tenislect"
+            android:exported="true" />
+        <activity
+            android:name=".basketlect"
+            android:exported="true" />
+        <activity
+            android:name=".soccerlect"
+            android:exported="true" />
+        <activity
+            android:name=".dogfoodact"
+            android:exported="true" />
+        <activity
+            android:name=".rocklect"
+            android:exported="true" />
+        <activity
+            android:name=".regaettonlec"
+            android:exported="true" />
+        <activity
+            android:name=".lechp"
+            android:exported="true" />
+        <activity
+            android:name=".hiphoplect"
+            android:exported="true" />
+        <activity
+            android:name=".strategyvglect"
+            android:exported="true" />
+        <activity
+            android:name=".sportgamlect"
+            android:exported="true" />
+        <activity
+            android:name=".rpglect"
+            android:exported="true" />
+        <activity
+            android:name=".luxurybrandslect"
+            android:exported="true" />
+        <activity
+            android:name=".springsumlect"
+            android:exported="true" />
+        <activity
+            android:name=".autumntrendslect"
+            android:exported="true" />
+        <activity
+            android:name=".petfashionlect"
+            android:exported="true" />
+        <activity
+            android:name=".catfoodlect"
+            android:exported="true" />
+        <activity
+            android:name=".sportsmenu"
+            android:exported="true" />
+        <activity
+            android:name=".cinemamenu"
+            android:exported="true" />
+        <activity
+            android:name=".musicalmenu"
+            android:exported="true" />
+        <activity
+            android:name=".menufashion"
+            android:exported="true" />
+        <activity
+            android:name=".dogfoodlect"
+            android:exported="true" />
+        <activity
+            android:name=".Mascotas"
+            android:exported="true" />
+        <activity
+            android:name=".menuprin"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

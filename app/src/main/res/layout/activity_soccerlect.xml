@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".soccerlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#0000"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:background="#0000"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depa" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="368dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:background="#0000"
+            app:srcCompat="@drawable/depb" />
+
+        <ScrollView
+            android:layout_width="336dp"
+            android:layout_height="251dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to handle the ball and may do so only within the penalty area surrounding the goal. The team that scores more goals wins.\nFootball is the world’s most popular ball game in numbers of participants and spectators. Simple in its principal rules and essential equipment, the sport can be played almost anywhere, from official football playing fields to gymnasiums, streets, school playgrounds, parks, or beaches. Football’s governing body, the Fédération Internationale de Football Association FIFA, estimated that at the turn of the 21st century there were approximately 250 million football players and over 1.3 billion people “interested” in football; in 2010 a combined television audience of more than 26 billion watched football’s premier tournament, the quadrennial month-long World Cup finals.\nFootball first came to South America in the 19th century through the port of Buenos Aires, Argentina, where European sailors played the game. Members of the British community there formed the first club, the Buenos Aires Football Club, in 1867; about the same time, British railway workers started another club, in the town of Rosario, Argentina.The first Argentinian league championship was played in 1893, but most of the players belonged to the British community, a pattern that continued until the early 20th century.\nBrazil is believed to be the second South American country where the game was established. Charles Miller, a leading player in England, came to Brazil in 1894 and introduced football in São Paulo; that city’s athletic club was the first to take up the sport. In Colombia, British engineers and workers building a railroad near Barranquilla first played football in 1903, and the Barranquilla FBC was founded in 1909.\n In Uruguay, British railway workers were the first to play, and in 1891 they founded the Central Uruguay Railway Cricket Club AKA Peñarol, which played both cricket and football. In Chile, British sailors initiated play in Valparaíso, establishing the Valparaíso FC in 1889. In Paraguay, Dutchman William Paats introduced the game an a school where he taught physical education, but the country’s first  club, Olimpia, was formed by a local man who became enthusiastic after seeing the game in Buenos Aires in 1902. In Bolivia the first footballers were a Chilean and students who had studied in Europe, and in Peru they were expatriate Britons. In Venezuela, British miners are known to have played football in the 1880s. \n Retrieved from:https://en.wikipedia.org/wiki/Football"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView63"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/sportsfut"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button400"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#9C27B0"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

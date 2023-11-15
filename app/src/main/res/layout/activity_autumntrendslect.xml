@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".autumntrendslect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView92"
+            android:layout_width="365dp"
+            android:layout_height="80dp"
+
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/autumnaa" />
+
+        <ImageView
+            android:id="@+id/imageView93"
+            android:layout_width="343dp"
+            android:layout_height="51dp"
+
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/autumnab" />
+
+        <ScrollView
+            android:layout_width="338dp"
+            android:layout_height="255dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Not clothes, but a pose – or a clutch, to be precise. At Giorgio Armani, the models clutched powder compacts; at Ann Demeulemeester, they clutched their breasts. From the model clasping her crimson edge-to-edge coat at The Row, to the girls illuminated by the glow of the iPhones clamped in their palms at Courrèges, to the woman grasping her ivory liquid-silk dress round her shoulders like she’d just stepped out the shower at Loewe, the meaningful gesture was everywhere. All conspired to make the autumn catwalks feel a little more human,with nice shoes ,obviously .\n  Those real-life gestures chimed with the season’s biggest look: pared-back, everyday clothes, executed in best-in-class fabrics. The runways at Bottega Veneta, Miu Miu and Loewe were all filled with outfits one could easily imagine throwing on before heading out to take on the day. And if you’re rolling your eyes at a publication extolling the merits of clothes you can actually wear, the difference came in the details that elevated them from mundane to magazine-worthy: a pair of socks rendered in peachy-soft leather at Bottega Veneta, say, or a chain attaching the hem of an oversized white shirt to a shoulder at Loewe, lending its silhouette an artful ripple.\n   If we thought the post-Covid 2020s were set to mirror the Roaring Twenties, with Champagne for breakfast and sequins for the supermarket run, well, we were wrong. One year on from the outbreak of the war in Ukraine, the autumn collections found fashion wringing its hands a little less energetically. It was business as usual – and big, ballsy 1,000-capacity-fashion-show business at that. But a sense of anxiety still hung in the air.\n  Perhaps that’s why strict black coats made their sober presence felt, along with classic white shirts styled in myriad ingenious ways (good news if you have one in your wardrobe already). Ditto corporate-infused looks blending shoulders that could fill trading floors with pinstriped suits and ties – if a financial crisis is on the cards, you may as well dress for promotion.\n Retrieved from:https://www.vogue.co.uk/fashion/article/autumn-winter-2023-fashion-trends "
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView94"
+            android:layout_width="325dp"
+            android:layout_height="90dp"
+
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pngwing_com__6_" />
+
+        <Button
+            android:id="@+id/button25"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:textStyle="bold"
+            android:backgroundTint="#DEC44F"
+            android:layout_gravity="center"
+            android:text="EXERCISE" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

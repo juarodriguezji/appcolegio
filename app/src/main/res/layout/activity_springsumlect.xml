@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".springsumlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/springaaa"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="354dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+
+            app:srcCompat="@drawable/springaa"
+            />
+
+        <ScrollView
+            android:layout_width="341dp"
+            android:layout_height="232dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What to wear this summer? It's a recurrent question that gives no rest to stylish people and fashion freaks. Unlike previous year when women’s wardrobe was full of elegant feminine and flattering contours outfits, this year women’s outfits are proceeding towards honest and simple approach to dressing.\n If you have not updated your wardrobe yet, its perfect time to start putting away the heavy, drab winter clothes and dress up yourself in light and bright colors. So what are you thinking for? This summer comes with colors like white, grey, navy blue; browns are reassured and warm with violet tones.\nThemes for this summer:\nActive sports wear, dancer’s workout clothes are the inspiration behind “Get Sporty collection”. Marni’s close-fitting jackets were teamed with cropped and stripped leggings. • The designers like Thakoon, Rodarte, and Alexander McQueen seems to be inspired with beauty of roses and peonies this summer. The romantic vision is blossomed with lots of structured dresses, tops and gowns. • Eighteen century’s influence is coming back in 2007 with a punk feel. The feminine silhouette is getting large with eminent volume and layers with a couture-like aristocratic and royal appeal. • Swingy shape dresses and skirts are comfortable to wear in summer. The inspiration came from Yves Saint Laurent’s collection of 1958. • Golden and silver looks have gained importance in this season. This season group of fashion designers has not forgotten to use golden, pewter, and coppers colors in slinky dresses, coats, bags and shoes. • With some of these dresses in summer collection you need not wear jewelry as they come with embedded jewelry. Like, an outfit with jeweled neckline avoids the need to wear a necklace.\nColors:\nSummer has come up with light colors. White is key color of the season. Colors like grey, navy blue have been used to give glamorous look. Bright colors have come back with red-orange and fuchsia. Cool, neutrals will always find a place in your summer wardrobes.\nOutfits:\n The baggy look dresses had been welcomed this season. I feel big, loose-fitting separates can be worn by both slim and slightly overweight women. You can put on perhaps a hat or chunky bracelet with your dress. I hope you will like it. This summer the length of blouses are little bit longer. It is an inch below navel and covers half of hips. For your second or third date you may wear black and white print border shift dress. The black and white combination doesn’t look contrast but it moved softer and transformed into shady grey and off white. How about trying the combination of white embroidery on black background or vice versa? Isn’t it great for dinner with your client!\nIn these sunny days black string bikini is funky and easy to wear. These simple sun dresses are perfect for the soaring temperatures without sacrificing style and fashion. To accessorize your outfits, try an over-sized bag with lots of details or bold, bug-eyed sunglasses. These trendy extras are sure to make a fashion statement. So it’s time to brush up your cabinet with some sporty, romantic, and sophisticated dresses. Have fun, be creative, and shine this season with these great outfits.\n  https://www.vogue.co.uk/fashion/gallery/spring-summer-2023-fashion-trends"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/springim" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:backgroundTint="#787417"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

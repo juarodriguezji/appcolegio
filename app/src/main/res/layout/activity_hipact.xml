@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hipact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView101"
+            android:layout_width="369dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/exerhip" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="138dp">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Can a poet express it feeling trough this type of music?" />
+
+            <RadioButton
+                android:id="@+id/radioButton50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="382dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the bigget community influenced by this genre?" />
+
+            <RadioButton
+                android:id="@+id/radioButton58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latino community" />
+
+            <RadioButton
+                android:id="@+id/radioButton59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Black community" />
+
+            <RadioButton
+                android:id="@+id/radioButton60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="White people" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="164dp" >
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="369dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What kind of problems DO NOT abord this type of genre ,according to the text?" />
+
+            <RadioButton
+                android:id="@+id/radioButton61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Climate change" />
+
+            <RadioButton
+                android:id="@+id/radioButton62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Neighborhood problems" />
+
+            <RadioButton
+                android:id="@+id/radioButton63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Women discrimination and abuse" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button60"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#F09177"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

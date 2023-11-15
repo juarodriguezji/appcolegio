@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".rpgact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView100"
+            android:layout_width="304dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rpgacta" />
+
+        <RadioGroup
+            android:layout_width="336dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do this genre mix with other genres?" />
+
+            <RadioButton
+                android:id="@+id/radioButton43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="346dp"
+            android:layout_height="103dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Is this gender usually developed on real world?" />
+
+            <RadioButton
+                android:id="@+id/radioButton45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="334dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What does &quot;improve&quot; means on this type of games according to the text?" />
+
+            <RadioButton
+                android:id="@+id/radioButton47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Go to the gym" />
+
+            <RadioButton
+                android:id="@+id/radioButton48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have  a better job and seduce  your crush" />
+
+            <RadioButton
+                android:id="@+id/radioButton49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Increase statistics and levels of the character" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button58"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#4CAF50"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

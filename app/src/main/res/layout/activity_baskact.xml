@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".baskact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depf" />
+
+        <RadioGroup
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the name o fthe proffesion that helped on the first idea of the game?" />
+
+            <RadioButton
+                android:id="@+id/radioButton70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Janitor" />
+
+            <RadioButton
+                android:id="@+id/radioButton71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rector" />
+
+            <RadioButton
+                android:id="@+id/radioButton72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teacher" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="338dp"
+            android:layout_height="184dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the name of the shooting objective of this sport?" />
+
+            <RadioButton
+                android:id="@+id/radioButton73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hoop" />
+
+            <RadioButton
+                android:id="@+id/radioButton74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Goal" />
+
+            <RadioButton
+                android:id="@+id/radioButton75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hole" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="331dp"
+            android:layout_height="176dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What are the values of the field points?" />
+
+            <RadioButton
+                android:id="@+id/radioButton76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1 AND 3" />
+
+            <RadioButton
+                android:id="@+id/radioButton77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2 AND 3" />
+
+            <RadioButton
+                android:id="@+id/radioButton78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3 AND 4" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonbask"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            app:backgroundTint="#673AB7"
+            android:layout_gravity="center"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

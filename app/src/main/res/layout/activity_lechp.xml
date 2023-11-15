@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9966"
+    tools:context=".lechp">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trampamusic" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/musica" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/musicallb" />
+
+        <ScrollView
+            android:layout_width="356dp"
+            android:layout_height="218dp"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Hip hop or hip-hop, also known as rap and formerly known as disco rap,is a genre of popular music that was originated in the Bronx borough of New York City in the early 1970s by African Americans, having existed for several years prior to mainstream discovery. Hip hop originated as an anti-drug and anti-violence genre, while consisting of stylized rhythmic music (usually built around drum beats) that commonly accompanies rapping, a rhythmic and rhyming speech that is chanted. According to the professor Asante of African American studies at Temple University, &quot;hip hop is something that blacks can unequivocally claim as their own&quot;.It was developed as part of hip hop culture, a subculture defined by four key stylistic elements: MCing/rapping, DJing/scratching with turntables, break dancing, and graffiti art. Other elements include sampling beats or bass lines from records (or synthesized beats and sounds), and rhythmic beatboxing. While often used to refer solely to rapping, &quot;hip hop&quot; more properly denotes the practice of the entire subculture.The term hip hop music is sometimes used synonymously with the term rap music, though rapping is not a required component of hip hop music; the genre may also incorporate other elements of hip hop culture, including DJing, turntablism, scratching, beatboxing, and instrumental tracks.\nHip hop as both a musical genre and a culture was formed during the 1970s when block parties became increasingly popular in New York City, particularly among African American youth residing in the Bronx. At block parties, DJs played percussive breaks of popular songs using two turntables and a DJ mixer to be able to play breaks from two copies of the same record, alternating from one to the other and extending the &quot;break&quot;. Hip hop's early evolution occurred as sampling technology and drum machines became widely available and affordable. Turntablist techniques such as scratching and beatmatching developed along with the breaks. Rapping developed as a vocal style in which the artist speaks or chants along rhythmically with an instrumental or synthesized beat.\nHip hop music was not officially recorded for play on radio or television until 1979, largely due to poverty during the genre's birth and lack of acceptance outside ghetto neighborhoods. \nOld-school hip hop was the first mainstream wave of the genre, marked by its disco influence and party-oriented lyrics. The 1980s marked the diversification of hip hop as the genre developed more complex styles and spread around the world. New-school hip hop was the genre's second wave, marked by its electro sound, and led into golden age hip hop, an innovative period between the mid-1980s and mid-1990s that also developed hip hop's own album era. The gangsta rap subgenre, focused on the violent lifestyles and impoverished conditions of inner-city African American youth, gained popularity at this time. West Coast hip hop was dominated by G-funk in the early-mid 1990s, while East Coast hip hop was dominated by jazz rap, alternative hip hop, and hardcore hip hop. Hip hop continued to diversify at this time with other regional styles emerging, such as Southern rap and Atlanta hip hop. Hip hop became a best-selling genre in the mid-1990s and the top-selling music genre by 1999." />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/musicd"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISE"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".spvact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView97"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/sportsacta" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Please reorganize the following scramble word that refers to one of the type of sports games contained on the text:" />
+
+        <ImageView
+            android:id="@+id/imageView98"
+            android:layout_width="312dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/sportsact" />
+
+        <EditText
+            android:id="@+id/spvi"
+            android:layout_width="303dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Please enter te word unscrambled" />
+
+        <RadioGroup
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the type of game that have traditionally been very popular ?" />
+
+            <RadioButton
+                android:id="@+id/radioButton38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arcade Sports Game" />
+
+            <RadioButton
+                android:id="@+id/radioButton39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simulation Game" />
+
+            <RadioButton
+                android:id="@+id/radioButton40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Management Game" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="324dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Can you asume the role of a manager in this type of game?" />
+
+            <RadioButton
+                android:id="@+id/radioButton41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioButton42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button57"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#8BC34A"
+            android:layout_gravity="center"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

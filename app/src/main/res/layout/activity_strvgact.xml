@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".strvgact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView96"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/victorysca" />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Unscramble the following word:" />
+
+        <ImageView
+            android:id="@+id/imageView99"
+            android:layout_width="354dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/victorysc" />
+
+        <EditText
+            android:id="@+id/aoe"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Hint: What you want to get on a game" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="174dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is a resource?" />
+
+            <RadioButton
+                android:id="@+id/radioButton51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Something you can spend and is often limited." />
+
+            <RadioButton
+                android:id="@+id/radioButton52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A class of spell that a wizard can throw" />
+
+            <RadioButton
+                android:id="@+id/radioButton53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A strategy game saga." />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="342dp"
+            android:layout_height="181dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the most valuable ability on these type of games?" />
+
+            <RadioButton
+                android:id="@+id/radioButton54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Planning" />
+
+            <RadioButton
+                android:id="@+id/radioButton55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digging" />
+
+            <RadioButton
+                android:id="@+id/radioButton56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fetching" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button59"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#1CE10E"
+            android:text="Check" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

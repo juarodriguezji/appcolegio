@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".hiphoplect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView76"
+            android:layout_width="345dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/lete" />
+
+        <ImageView
+            android:id="@+id/imageView77"
+            android:layout_width="376dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/letf" />
+
+        <ScrollView
+            android:layout_width="309dp"
+            android:layout_height="248dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="As the genre of Hip-Hop in music continues to transpire and evolve, the influence of modern Hip-Hop is almost inevitable, especially for young people. Current artists such as Kendrick Lamar, Nicki Minaj, or Megan Thee Stallion are oftentimes the representatives of a variety of cultures, whether they be challenging the status quo for social change or simply representing the underrepresented.\nThe genre of Hip-Hop has surpassed being just a music category, as it can now be considered a way of living due to its wider cultural impact. Originating from the Bronx borough of New York City during the 1970s, lower-income areas within the United States were able to formulate new sounds using imagination and inspiration from other musically gifted individuals while still incorporating their styles.\n Because Hip-Hop became so popular in these impoverished areas, the genre itself emphasizes one’s creativity and how efficiently one can create a new sound utilizing the little resources available to them. Its versatility especially facilitated its spread, considering how Hip-Hop allowed people with diverse interests to participate in it, such as poets, philosophers, producers, photographers, and visual artists. Most importantly, though, it has continuously allowed for growing artists to advocate for the issues occurring in their neighborhoods; especially in those that had a minority population (where a lot of said issues were overlooked). The activism and representation that derives from today’s Hip-Hop furthermore highlight its cultural relevance, even years after its creation.\nHip-Hop has had an undeniable impact on Black communities throughout the United States, especially when considering that the genre itself is dominated by Black artists. Moreover, it has served as an outlet for them to speak upon unjust inconsistencies in society, the government, or the treatment that Black people receive in this country. An example of this was in 2020 when Houston rapper Megan Thee Stallion’s performance on Saturday Night Live sent a powerful message about the death of Breonna Taylor, a medical worker shot in her home by police officers.\n When her death occurred, many took note of how cases of police brutality towards Black women specifically are often overlooked and disregarded.\nThis realization did not just solely surround police brutality, but the effects of systemic racism on Black women as a whole. While performing her hit song “Savage,” it became apparent that the performance was meant to be more than just a live show, but rather a call to political action on an issue that has been ignored for far too long. The words “Protect Black Women” was the backdrop to her performance, alongside the recording of Malcolm X’s 1962 speech. The most disrespected…unprotected…neglected person in America is the Black woman.\n Retrieved from:https://en.wikipedia.org/wiki/Hip_hop_music"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView78"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/musicd"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button37"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISES"
+
+            app:backgroundTint="#F09177"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

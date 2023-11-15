@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".rockactiv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="370dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/exerock" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="What are the genres that are most related to rock and roll begginings?" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="African-American"
+            android:textOff="No"
+            android:textOn="Yes" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Joropo"
+            android:textOff="No"
+            android:textOn="Yes" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Blues"
+            android:textOff="No"
+
+            android:textOn="Yes" />
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Trap"
+            android:textOff="No"
+            android:textOn="Yes" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Choose the lead instrument:" />
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/acdn" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/guitar" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/sax" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Is this image related to the begin of rock and roll?" />
+
+        <ImageView
+            android:id="@+id/imageView81"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/clock" />
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pull the switch if its correct"
+            android:textOff="No"
+            android:textOn="Yes" />
+
+        <Button
+            android:id="@+id/button49"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#B51D1A"
+            android:text="CHECK" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

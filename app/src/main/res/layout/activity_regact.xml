@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/exereg" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="338dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="What is  the genre of the majority of singers of this type of music?" />
+
+        <LinearLayout
+            android:layout_width="287dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imra" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imrb" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imrc" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="376dp"
+            android:layout_height="137dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the main language in which the lyrics are written?" />
+
+            <RadioButton
+                android:id="@+id/radioButton64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="French" />
+
+            <RadioButton
+                android:id="@+id/radioButton65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English" />
+
+            <RadioButton
+                android:id="@+id/radioButton66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spanish" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="337dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Please traduce to english the name of 2004 hit:" />
+
+        <EditText
+            android:id="@+id/regt"
+            android:layout_width="353dp"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Enter the word traduced to english" />
+
+        <ImageView
+            android:id="@+id/imageView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <Button
+            android:id="@+id/button64"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#FCAD9D"
+            android:text="CHECK" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

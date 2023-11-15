@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".petfashionlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/petsfashiona"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/petsfashionb" />
+
+        <ScrollView
+            android:layout_width="324dp"
+            android:layout_height="239dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There are Gucci hats made in Italy from pink bouclé wool, Celine travel bags with calfskin trim and a (waste bag) purse studded with gold spikes. But these are not just any designer fashion items … they’re created for clients with four legs and a tail.\n  In the past year, numerous fashion houses have launched ranges for pets, including Gucci, Celine, Tommy Hilfiger, Hugo Boss and Christian Louboutin. Dolly Parton also launched her own line of dog clothes in 2022, with the name Doggy Parton.\n  And even the catwalk (or dogwalk?) has found a space for your furry friend. This month, the fashion calendar began with the menswear event Pitti Uomo in Italy and, alongside the latest styles for men, was a new event, PittiPets, dedicated to clothing, accessories and homeware for cats and dogs.\n  “We’d been thinking about expanding the Pitti Uomo lifestyle boundaries for some time,” says Antonio Cristaudo, a director of Pitti Immagine. “A growing market has been created as a result of strong consumer demand.”\n  The global pet clothing market is expected to be worth 7bn by 2032 with an annual growth rate of 5 percent. Sales of clothing for animals have grown by 21 percent since 2019 and the average amount spent by owners has increased by 9%. Dogs have the biggest wardrobes, with 60 percent of pet clothes bought by their owners. In the UK alone, annual spending on pets exceeded £7.5bn in 2020, according to the Pet Food Manufacturing Association, and there are more than 34million British pets.\n  Some of the newer offerings have been inspired by designers’ own pets. Gucci’s collection of jumpers, coats and travel carriers was made with creative director Alessandro Michele’s Boston terriers Bosco and Osco in mind. Celine’s range of leads, poo bag pouches and bowls, designed by Hedi Slimane, was created for his labradoodle, Elvis.\n  This isn’t just a trend for luxury fashion. High-street brands such as HM have also created dog clothes. Chris Corbin, commercial director at the UK’s biggest pet care chain Pets at Home, said sales of dog jumpers and hoodies were up more than 60 percent year-on-year. “This is driven by an increasing number of pet owners, and pets becoming an integral part of the family in a growing humanisation trend.”\n Retrieved from:https://www.theguardian.com/fashion/2023/jan/21/tail-blazers-fashion-houses-turn-to-pet-clothing-as-humanisation-trend-grows"
+                android:textStyle="bold">
+
+            </TextView>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/pngwing_com__5_" />
+
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="333dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#2F3A99"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2535" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2535" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/drawable/ic_lonchera_background.xml" value="0.2535" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_autact.xml" value="0.348731884057971" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_autumntrendslect.xml" value="0.2711598746081505" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_baskact.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_basketlect.xml" value="0.2859504132231405" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_catfoodact.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_catfoodlect.xml" value="0.19475277497477295" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_cinemamenu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_dogfoodact.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_dogfoodlect.xml" value="0.22732626619552415" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_hipact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_hiphoplect.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_lechp.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_luxact.xml" value="0.348731884057971" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_luxurybrandslect.xml" value="0.21612541993281076" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_mascotas.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_menufashion.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_menuprin.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_musicalmenu.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_musicmenu.xml" value="0.14356884057971014" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_petfashact.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_petfashionlect.xml" value="0.28550295857988167" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_regact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_regaettonlec.xml" value="0.20797413793103448" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_rockactiv.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_rocklect.xml" value="0.21185510428100987" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_rpgact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_rpgactiv.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_rpglect.xml" value="0.2776978417266187" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_socact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_soccerlect.xml" value="0.22" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_sportgamlect.xml" value="0.1868344627299129" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_sportsmenu.xml" value="0.2711598746081505" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_springsumlect.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_spvact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_strategyvglect.xml" value="0.36302083333333335" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_strvgact.xml" value="0.24791666666666667" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_sumact.xml" value="0.348731884057971" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_tenisact.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/layout/activity_tenislect.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/mipmap-anydpi-v26/ic_lonchera.xml" value="0.2535" />
+        <entry key="..\:/Users/juanr/AndroidStudioProjects/appcolegio/app/src/main/res/mipmap-anydpi-v26/ic_lonchera_round.xml" value="0.102" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".socact">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depc" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Select the image of the goalkeeper:" />
+
+        <LinearLayout
+            android:layout_width="287dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imsa" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imsb" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="@drawable/imsc" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="193dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="What is the meaning of FIFA?" />
+
+            <RadioButton
+                android:id="@+id/radioButton67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fédération Internationale de Football Association" />
+
+            <RadioButton
+                android:id="@+id/radioButton68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fédération Internationale de Fanaticas Association" />
+
+            <RadioButton
+                android:id="@+id/radioButton69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foundation International and Football Association" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="How many players are involved in proffesional matches?" />
+
+        <EditText
+            android:id="@+id/oncesoc"
+            android:layout_width="358dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="number"
+            android:text="Hint : Enter a number from 0 to 100" />
+
+        <ImageView
+            android:id="@+id/imageView105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trickall" />
+
+        <Button
+            android:id="@+id/button68"
+            android:layout_width="287dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#9C27B0"
+            android:text="CHECK" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".regaettonlec">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView56"
+            android:layout_width="359dp"
+            android:layout_height="84dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/letc" />
+
+        <ImageView
+            android:id="@+id/imageView57"
+            android:layout_width="365dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/letd" />
+
+        <ScrollView
+            android:layout_width="344dp"
+            android:layout_height="208dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Genre of music largely shaped by the African diaspora, blending such styles as dancehall from Jamaica, reggae en español from Panama, el underground from Puerto Rico, and hip-hop from the United States. Reggaeton’s signature characteristics include a beat called “dem bow” and lyrics sung primarily in Spanish.\n Although the beginnings of reggaeton are disputed, many historians point to Panama City, where the descendants of West Indian workers, many of whom had emigrated from Jamaica and Barbados to help build the Panama Canal, created a new type of music called reggae en español. It arose in the early 1980s when MCs, including Leonardo “Renato”Aulder and Edgardo Franco (who would later be known as El General), began translating Jamaican dancehall, an updated form of reggae that had become popular in the 1970s, to Spanish. Although the performers covered many English-language songs, they also created a few of the genre’s earliest hits, including Renato’s “El D.E.N.I.” . The song speaks to the unique discrimination Black English-speaking Panamanians often experienced. About the same time, hip-hop was growing in the United States, and artists from New York City were rapping about racism in that country. One of that genre’s earliest hits, “The Message”  by Grandmaster Flash and the Furious Five, recounts the troubles of living in an underfunded inner-city neighbourhood. Hip-hop soon spread to Puerto Rico, where performers, notably Vico C in San Juan, began rapping in Spanish. By the 1990s both hip-hop in Spanish and reggae en español had converged on the island, forming a type of music called underground.\nUnderground was cultivated in nightclubs, notably at The Noise, which was founded by DJ Negro. The Noise was where Ivy Queen, one of the few women in the male-dominated genre, Daddy Yankee, and other future reggaeton performers tested their talents. It was also the spot for the perreo, a sexual dance move that soon became associated with the music. Like reggae en español and hip-hop in Spanish, underground was known for having homophobic, misogynistic, and sexually explicit lyrics. However, it also addressed racism and life in the caseríos, the low-income housing projects on the island. Indeed, during the 1990s underground singers and listeners, many of whom lived in the caseríos, were targeted as drug dealers and other criminals during the government’s anti-crime campaign, Mano Dura Contra el Crimen “Iron Fist Against Crime”. Yet the initiative only grew underground’s popularity and strengthened its reputation as a music of resistance.\nAt about the turn of the 21st century, underground became known as reggaeton. Performers continued writing provocative lyrics, as in Tego Calderón’s “Loíza,” but other artists, notably Daddy Yankee, avoided politics and made their lyrics more radio-friendly. In 2004 he released “Gasolina,” which became a global hit. Soon after, major record labels in the United States sought to sign reggaeton performers, and several radio stations converted to reggaeton stations. The music industry, however, was changing amid the growing digital era and such online radio applications as Pandora and Last.fm. Radio stations struggled to procure advertisers for English-language stations, let alone for radio stations devoted to what was then regarded as foreign music. They were soon back to playing mainstream music. Meanwhile, reggaeton singles released by major labels did not match the success of “Gasolina”, and those labels hesitated to sign new reggaeton performers. Predictions of the genre’s global takeover were soon dispelled. Yet reggaeton remained popular in several Spanish-speaking countries, notably Colombia. Reggaeton performers, including Nicky Jam, found a rapt audience in Medellín and began moving there in the late 2000s. By the 2010s a new generation of local talent, namely J Balvin and Maluma, began creating reggaeton music. About 2014 the boom of Spotify and other music streaming services made reggaeton more accessible to listeners worldwide, and streaming of the genre grew steadily through the rest of the decade.. \n Retrieved from:https://en.wikipedia.org/wiki/Reggaeton"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView58"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/musicf"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:backgroundTint="#FCAD9D"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

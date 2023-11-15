@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".sportgamlect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="324dp"
+            android:layout_height="89dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/videota" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="340dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/videosa" />
+
+        <ScrollView
+            android:layout_width="325dp"
+            android:layout_height="217dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A sports video game is a video game that simulates the practice of sports. Most sports have been recreated with a video games, including team sports, track and field, extreme sports, and combat sports.Some games emphasize actually playing the sport (such as FIFA, Pro Evolution Soccer and Madden NFL), whilst others emphasize strategy and sport management (such as Football Manager and Out of the Park Baseball). Some, such as Need for Speed, Arch Rivals and Punch-Out, satirize the sport for comic effect. This genre has been popular throughout the history of video games and is competitive, just like real-world sports. A number of game series feature the names and characteristics of real teams and players, and are updated annually to reflect real-world changes. The sports genre is one of the oldest genres in gaming history.\nTypes\nArcade\nArcade sports games have traditionally been very popular arcade games. The competitive nature of sports lends itself well to the arcades where the main objective is usually to obtain a high score. The arcade style of play is generally more unrealistic and focuses on a quicker gameplay experience. However the competitive nature of sports and being able to gain a high score while competing against friends for free online, has made online sports games very popular. Examples of this include the NFL Blitz and NBA Jam series.Simulation\nSimulation games are more realistic than arcade games, with the emphasis being more on realism than on how fun the game is to pick up and play. The simulation-style tend to be slower and more accurate with normal rules while arcade games tend to be fast and can have all kinds of ad-hoc rules and ideas thrown in, especially pre-2000s. Examples of this include the EA Sports FC, EA Sports NHL, MLB The Show, Madden NFL and NBA 2K series.\nManagement\nA sports management game puts the player in the role of team manager. Whereas some games are played online against other players, management games usually pit the player against AI controlled teams in the same league. Players are expected to handle strategy, tactics, transfers, and financial issues. Various examples of these games can be found in the sports management category.\n Multi-sport\nSince Track  Field (1983), various multi-sport video games have combined multiple sports into a single game. Wii Sports and Nintendo Switch Sports are recent examples. A popular sub-genre are Olympic video games, including Track Field and other similar titles. Multi-sport tournaments are becoming the basis for computer games.\nSports-based fighting\n Sports-based fighting games are titles that fall firmly within the definitions of both the fighting game and sports game genres, such as boxing and wrestling video games. As such, they are usually put in their own separate subgenres. Often the fighting is far more realistic than in traditional fighting games (though the amount of realism can greatly vary), and many feature real-world franchises or fighters. Examples of this include the Fight Night, UFC 2009 Undisputed, EA Sports UFC and WWE 2K series.\n Retrieved from:https://en.wikipedia.org/wiki/Sports_video_game"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/spvgc"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISE"
+            android:backgroundTint="#8BC34A"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

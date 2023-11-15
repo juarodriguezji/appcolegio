@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".rocklect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/leta" />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/letb" />
+
+        <ScrollView
+            android:layout_width="327dp"
+            android:layout_height="242dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rock music first grew out of the rock’n’roll movement of the 1940s and 50s, which itself was inspired by country and African-American rhythm and blues from the 1920s and 30s. Even from its inception, rock music has been constantly evolving, and continuously creating subgenres that can be sourced from all over the world.\nWhile rock’n’roll had been increasing in popularity in the US for several years, it wasn’t until 1955 that Bill Haley’s Rock Around The Clock reached No 1 in the charts, paving the way for rock music to become a prominent part of music culture. At that time, there were many popular solo artists including Elvis Presley, Chuck Berry, Jerry Lee Lewis, and Carl Perkins. During this period, musicians were moving away from the acoustic guitar and picking up electric guitars instead.\nIn the early 60s, California was a leading light of the electric guitar with a number of acts moving away from rock’n’roll towards surf music. The most commercially successful act at the time was The Beach Boys, who quickly became the poster boys for the movement.\nA beginner’s guide to punk rock music\nMeanwhile, in Britain, bands were still inspired by American R'n'B and blues, but were creating more energetic and upbeat songs. Acts such as The Beatles, The Rolling Stones, and The Kinks had a cross-Atlantic appeal, and their sound was dubbed the British Invasion. Electric guitars were also becoming a lead instrument, with musicians such as Eric Clapton and Jimi Hendrix becoming prominent in the blues, rock, and psychedelic rock scenes which peaked during the late 60s and early 70s.\nWhile many other subgenres were forming in the late 60s including glam rock and progressive rock, many of these pioneering musicians didn’t have commercial success until the 70s where acts like Pink Floyd, David Bowie, Fleetwood Mac, and Led Zeppelin became cultural icons, despite all being very diverse musically. Rock music was becoming heavier with more distortion being added to guitars, which saw Thin Lizzy, Aerosmith, Van Halen, and AC/DC all becoming popular by the end of the decade, as well as the rise and fall of the punk movement. Black Sabbath, Motorhead, and Kiss were also building a name for themselves with a darker, more gothic sound which was labelled as heavy metal music.\nWhat are the origins of Hip Hop and what tracks should you be listening to?\nThe 1980s saw the dawn of post-punk bands, new wave, and the new romantics which saw guitar-oriented rock music move in a more electronic direction. New Order, Duran Duran, The Police, Talk Talk, and the Eurhythmics became indicative of the time with keyboard-heavy songs, but guitar bands like U2, Dire Straits, Echo and The Bunnymen, and The Cure managed to maintain successful careers despite the electronic shift.\n Other bands reinventing the traditional band set-up were REM, Jane’s Addiction, and The Smiths, all who fell under the umbrella of alternative rock.\n  Retrieved from :https://en.wikipedia.org/wiki/Rock_music"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView62"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/musice"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:text="EXERCISE"
+            app:backgroundTint="#B51D1A"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

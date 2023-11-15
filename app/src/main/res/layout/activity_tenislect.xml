@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".tenislect">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView71"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/trickall" />
+
+        <ImageView
+            android:id="@+id/imageView72"
+            android:layout_width="356dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/depg" />
+
+        <ImageView
+            android:id="@+id/imageView73"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/deph" />
+
+        <ScrollView
+            android:layout_width="347dp"
+            android:layout_height="256dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tennis is a very popular sport in Australia and is played by people of all ages. Tennis can be played by two people called ‘playing singles’ or four people ‘doubles’. Players use racquets to hit a ball over a net into the other side of the court. A game of tennis involves a variety of types of play, including serving the ball over the net, rallies when the ball is hit back and forth between opponents, fast movements and strategic game play.\nTennis can be played as a sport or as a recreational activity with friends and family. Either way, playing tennis is a good sport to maintain your health, fitness, strength and agility. It has been calculated that an hour-long game of singles tennis burns around 600 calories for men and 420 calories for women.\nIn addition to the fitness and physical health benefits, tennis also provides numerous social and mental health benefits as well.\nOriginal tennis balls were crafted from wood, it wasn’t until later that a cellulose material was used to make the balls bouncier.\nCharlotte Cooper was one of the few female players to serve by throwing the ball up before hitting it, while most of her opponents were still serving underhand. An excellent volleyer, she was an attacking player, rushing up to the net as soon as she had an opportunity. On 10 July, she won the final of the mixed doubles with Reginald Frank Doherty, beating the pair composed of France’s Hélène Prévost and Britain’s Harold Mahony, 6-2, 6-4. Sweeping all before her in the women’s singles, on 11 July 1900, beating France’s Hélène Prevost in the final, 6-1, 6-4, she became the first woman to write her name in the Olympic history books for an individual event!\n Retrieved from : www.wikipedia.com/tennis"
+                android:textStyle="bold" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView74"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/sportsten" />
+
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="370dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            app:backgroundTint="#AE30DC"
+            android:text="EXERCISE" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
